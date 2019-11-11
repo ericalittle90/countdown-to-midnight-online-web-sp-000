@@ -1,3 +1,5 @@
+number = 0
+
 def countdown_with_sleep(number)
   number = Time.now
 sleep 2.seconds until Time.now > number + 10.seconds
@@ -5,12 +7,10 @@ end
 end
 
 
-x = 10
-
 def countdown(number)
-  while x > 0
+  while number > 0
     puts "#{number} SECOND(S)!"
-    x -= 1
+    number -= 1
   end
 end
 
