@@ -5,8 +5,6 @@ end
 end
 
 
-
-
 x = 10
 
 def countdown(number)
