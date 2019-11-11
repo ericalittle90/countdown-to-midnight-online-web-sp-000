@@ -6,6 +6,7 @@ def countdown(input)
   if input == 0
     return "HAPPY NEW YEAR!"
 end
+end
 
 def countdown_with_sleep(input)
   sleep(5)
